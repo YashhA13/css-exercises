@@ -1,0 +1,15 @@
+.odd{
+    background-color: #ffa1aa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.FontSZ{
+    font-size: 24px;
+}
+#second{
+    color: blue;
+    font-size: 36px;
+}
+#fourth{
+    background-color: #6ff788;
+    font-weight: bold;
+}
