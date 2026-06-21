@@ -24,3 +24,53 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/* solution */
+body{
+  display: flex;
+  flex-direction: column;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+li{
+  list-style-type: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.left-links{
+  display: flex;
+  gap: 12px;
+}
+
+.right-links{
+  display: flex;
+  gap: 12px;
+}
+
+.footer{
+  display: flex;
+  /* margin-top: auto; */
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 16px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+button{
+  padding: 6px;
+  margin-top: 10px;
+}
